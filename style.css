@@ -1,0 +1,80 @@
+html, body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 100%);
+    text-align: start;
+    border: #000 solid 1.5px;
+    border-radius: 1.1rem;
+    box-shadow: 7px 7px 0 #000;
+    width: 21rem;
+    padding: 7%;
+}
+
+.header-image {
+    border-radius: 0.7rem;
+}
+
+.type {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 0.2rem;
+    font-size: 16px;
+    text-align: center;
+    width: 5rem;
+    margin-top: 7%;
+    padding: 5px;
+}
+
+.date {
+    font-size: 14px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.title:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.info {
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.mentor {
+    display: flex;
+    align-items: center;
+}
+
+.mentor > img {
+    padding-right: 3%;
+    width: 35px;
+    height: 35px;
+}
+
+.mentor > h4 {
+    margin: 0;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 5%;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
