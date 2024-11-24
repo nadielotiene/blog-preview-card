@@ -18,12 +18,13 @@ html, body {
     border: #000 solid 1.5px;
     border-radius: 1.1rem;
     box-shadow: 7px 7px 0 #000;
-    width: 21rem;
+    width: clamp(12rem, 16rem + 5vw, 18rem);
     padding: 7%;
 }
 
 .header-image {
     border-radius: 0.7rem;
+    width: clamp(12rem, 16rem + 5vw, 18rem);
 }
 
 .type {
@@ -41,7 +42,7 @@ html, body {
 }
 
 .title {
-    font-size: 24px;
+    font-size: clamp(22px, 22px, 28px);
     font-weight: 800;
 }
 
@@ -59,6 +60,7 @@ html, body {
 .mentor {
     display: flex;
     align-items: center;
+    margin: 3% 0;
 }
 
 .mentor > img {
