@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head role="banner">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Blog preview card</title>
   <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-  <main role="main" class="main">
-    <img class="header-image" src="./assets/images/illustration-article.svg" alt="article illustration">
+  <body>
+    <article class="main">
+      <img class="header-image" src="./assets/images/illustration-article.svg" alt="illustration for blog preview card">
 
-    <h2 class="type">Learning</h2>
+      <p class="type">Learning</p>
 
-    <h3 class="date">Published 21 Dec 2023</h3>
+      <p class="date">Published 21 Dec 2023</p>
 
-    <h1 class="title">HTML & CSS foundations</h1>
+      <h1 class="title">HTML & CSS foundations</h1>
 
-    <p class="info">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <p class="info">These languages are the backbone of every website, defining structure, content, and presentation.</p>
 
-    <span class="mentor"><img src="./assets/images/image-avatar.webp" alt="mentor image"><h4>Greg Hooper</h4></span>
-  </main>
-  <div role="contentinfo" class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Kenneth Velázquez</a>.
-  </div>
-</body>
+      <figure class="mentor">
+        <img src="./assets/images/image-avatar.webp" alt="Photo of Greg Hooper">
+        <figcaption>Greg Hooper</figcaption>
+      </figure>
+    </article>
+    <div role="contentinfo" class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Kenneth Velázquez</a>.
+    </div>
+  </body>
 </html>
