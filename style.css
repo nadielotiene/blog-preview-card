@@ -1,3 +1,9 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 html, body {
     background-color: hsl(47, 88%, 63%);
     font-family: "Figtree", sans-serif;
@@ -7,8 +13,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    min-height: 100vh;
 }
 
 .main {
@@ -18,20 +23,25 @@ html, body {
     border: #000 solid 1.5px;
     border-radius: 1.1rem;
     box-shadow: 7px 7px 0 #000;
-    width: clamp(12rem, 17rem + 5vw, 20rem);
     padding: 7%;
+}
+
+.main, .header-image {
+    width: clamp(12rem, 17rem + 5vw, 20rem);
 }
 
 .header-image {
     border-radius: 0.7rem;
-    width: clamp(12rem, 17rem + 5vw, 20rem);
+}
+
+.type .title .mentor {
+    font-weight: 800;
 }
 
 .type {
     background-color: hsl(47, 88%, 63%);
     border-radius: 0.2rem;
     font-size: 16px;
-    font-weight: 800;
     text-align: center;
     width: 5rem;
     margin-top: 7%;
@@ -44,7 +54,6 @@ html, body {
 
 .title {
     font-size: clamp(20px, 23px, 28px);
-    font-weight: 800;
 }
 
 .title:hover {
@@ -71,7 +80,6 @@ html, body {
 }
 
 .mentor > figcaption {
-    font-weight: 800;
     margin: 0;
 }
 
